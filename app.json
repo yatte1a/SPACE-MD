@@ -48,7 +48,12 @@
     "description": "If you purchased a premium membership, enter the expiry date you received here otherwise leave blank",
     "value": "",
     "required": false
-  }
+  },
+    "ANTI_DELETE": {
+    "description": "Antidelete and Antiedit functionality, set true to enable and false to disable. (⚠️ This function consumes a lot of memory + storage, only enable if you have enough resources ⚠️)",
+    "value": "",
+    "required": false
+  } 
 },
   "buildpacks": [
     {
