@@ -5,7 +5,7 @@ module.exports = {
   BOT_ADMIN: process.env.BOT_ADMIN || '254712345678',
   PORT: parseInt(process.env.PORT) || 20087,
   GITHUB_USERNAME: process.env.GITHUB_USERNAME || 'yatte1a',
-  BOT_PASSWORD: parseInt(process.env.BOT_PASSWORD) ||kaitesi1212 ,
+  BOT_PASSWORD: parseInt(process.env.BOT_PASSWORD) ||'kaitesi1212' ,
   
    //Antidelete and Antiedit functionality, set true to enable and false to disable. (⚠️ This function consumes a lot of memory + storage, only enable if you have enough resources ⚠️)
    ANTI_DELETE: process.env.ANTI_DELETE || 'false',
